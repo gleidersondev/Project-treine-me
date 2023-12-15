@@ -22,3 +22,12 @@ ul {
   list-style: none;
   gap: 48px;
 }
+
+ul a {
+  text-decoration: none;
+}
+
+/* elemento header */
+
+
+
