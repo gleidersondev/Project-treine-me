@@ -2,3 +2,23 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  width: 1000px;
+  padding: 65px;
+}
+
+/* elemento nav */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
