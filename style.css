@@ -5,7 +5,9 @@
 
 body {
   width: 1000px;
+  margin: auto;
   padding: 65px;
+ 
 }
 
 /* elemento nav */
@@ -26,6 +28,15 @@ ul {
 ul a {
   text-decoration: none;
 }
+
+/* main */
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 
 /* section description */
 
