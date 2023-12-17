@@ -4,10 +4,16 @@
 }
 
 body {
-  width: 1000px;
-  margin: auto;
-  padding: 65px;
- 
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+#content {
+  width: 970px;
+  margin: 0 auto;
+  padding: 30px;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
 }
 
 /* elemento nav */
@@ -29,12 +35,13 @@ ul a {
   text-decoration: none;
 }
 
-/* main */
+/* main-content */
 
-main {
+#main-content {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 82px;
 }
 
 
@@ -85,6 +92,21 @@ button img {
   height: auto;
 }
 
+/* footer */
 
+footer {
+  text-align: center;
+}
+
+footer a {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}
+
+#balls {
+  display: flex;
+  flex-direction: row-reverse;
+}
 
 
